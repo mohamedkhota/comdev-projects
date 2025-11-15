@@ -5881,5 +5881,331 @@
 }
 },
 "shortdesc": "training materials for Apache projects and the Apache Software Foundation"
+},
+{
+"charter": "The mission of Apache Griffin is the creation and maintenance of software related to a data quality solution for big data, including both streaming and batch mode. It offers an unified process to measure data quality from different perspectives.",
+"established": "2018-11",
+"homepage": "https://griffin.apache.org/",
+"id": "griffin",
+"name": "Apache Griffin",
+"retired": "2025-09",
+"roster": {
+"alexlv": {
+"date": "2018-11-21",
+"name": "Alex Lv"
+},
+"chitralverma": {
+"date": "2020-05-06",
+"name": "Chitral Verma"
+},
+"dyyao": {
+"date": "2018-11-21",
+"name": "Kevin Yao"
+},
+"guoyp": {
+"date": "2018-11-21",
+"name": "William Guo"
+},
+"hsaputra": {
+"date": "2018-11-21",
+"name": "Henry Saputra"
+},
+"icesmartjuan": {
+"date": "2018-11-21",
+"name": "Juan Li"
+},
+"jasonliao": {
+"date": "2018-11-21",
+"name": "Jason Liao"
+},
+"johnliu": {
+"date": "2018-11-21",
+"name": "John Liu"
+},
+"liangshao": {
+"date": "2018-11-21",
+"name": "Liang Shao"
+},
+"lionelliu": {
+"date": "2018-11-21",
+"name": "Lionel Liu"
+},
+"liujin": {
+"date": "2018-11-21",
+"name": "Eugene Liu"
+},
+"lresende": {
+"date": "2018-11-21",
+"name": "Luciano Resende"
+},
+"nsokolov": {
+"date": "2018-11-21",
+"name": "Nick Sokolov"
+},
+"wanghe": {
+"date": "2018-11-21",
+"name": "He Wang"
+},
+"wankun": {
+"date": "2019-11-11",
+"name": "Wan Kun"
+},
+"wenzhao": {
+"date": "2018-11-21",
+"name": "Vincent Zhao"
+},
+"xuanyq": {
+"date": "2018-11-21",
+"name": "Yuqin Xuan"
+},
+"xuexu": {
+"date": "2018-11-21",
+"name": "Grant Guo"
+},
+"yosha": {
+"date": "2018-11-21",
+"name": "Shawn Sha"
+}
+},
+"shortdesc": "a data quality solution for big data, including both streaming and batch mode. It offers an unified process to measure data quality from different perspectives."
+},
+{
+"charter": "The mission of Portals is the creation and maintenance of software related to Portal technology",
+"established": "2004-02",
+"homepage": "https://portals.apache.org/",
+"id": "portals",
+"name": "Apache Portals",
+"retired": "2025-09",
+"roster": {
+"asfgriff": {
+"date": "2017-02-12",
+"name": "Neil Griffin"
+},
+"ate": {
+"date": "2005-03-01",
+"name": "Ate Douma"
+},
+"cdoremus": {
+"date": "2007-05-05",
+"name": "Craig Doremus"
+},
+"ddewolf": {
+"date": "2004-11-14",
+"name": "David H. DeWolf"
+},
+"dims": {
+"date": "2004-02-18",
+"name": "Davanum Srinivas"
+},
+"esm": {
+"date": "2007-03-12",
+"name": "Elliot Metsger"
+},
+"jmacna": {
+"date": "2004-02-18",
+"name": "Julie MacNaught"
+},
+"msnicklous": {
+"date": "2017-02-12",
+"name": "Martin Scott Nicklous"
+},
+"nlothian": {
+"date": "2005-02-18",
+"name": "Nick Lothian"
+},
+"rogerrut": {
+"date": "2007-05-05",
+"name": "Roger Ruttimann"
+},
+"rwatler": {
+"date": "2015-05-12",
+"name": "Randy Watler"
+},
+"sgala": {
+"date": "2004-02-18",
+"name": "Santiago Gala"
+},
+"shinsuke": {
+"date": "2007-05-05",
+"name": "Shinsuke Sugaya"
+},
+"smilek": {
+"date": "2007-05-05",
+"name": "Steve Milek"
+},
+"sthepper": {
+"date": "2004-02-18",
+"name": "Stefan Hepper"
+},
+"taylor": {
+"date": "2004-02-18",
+"name": "David Sean Taylor"
+},
+"weaver": {
+"date": "2004-02-18",
+"name": "Scott Weaver"
+}
+},
+"shortdesc": "Portal technology"
+},
+{
+"charter": "The mission of Apache Fluo is the creation and maintenance of software related to the storage and incremental processing of large data sets",
+"established": "2017-07",
+"homepage": "https://fluo.apache.org/",
+"id": "fluo",
+"name": "Apache Fluo",
+"retired": "2025-09",
+"roster": {},
+"shortdesc": "Storage and incremental processing of large data sets"
+},
+{
+"charter": "The mission of Apache Kibble is the creation and maintenance of software related to an interactive project activity analyzer and aggregator",
+"established": "2017-10",
+"homepage": "https://kibble.apache.org/",
+"id": "kibble",
+"name": "Apache Kibble",
+"retired": "2025-10",
+"roster": {
+"cdutz": {
+"date": "2017-10-18",
+"name": "Christofer Dutz"
+},
+"hboutemy": {
+"date": "2017-10-18",
+"name": "Herve Boutemy"
+},
+"humbedooh": {
+"date": "2017-10-18",
+"name": "Daniel Gruno"
+},
+"ke4qqq": {
+"date": "2017-10-18",
+"name": "David Nalley"
+},
+"lmccay": {
+"date": "2017-10-18",
+"name": "Larry McCay"
+},
+"michalslowikowski": {
+"date": "2021-05-03",
+"name": "Micha\u0142 S\u0142owikowski"
+},
+"pono": {
+"date": "2017-10-18",
+"name": "Daniel Takamori"
+},
+"rafael": {
+"date": "2017-12-09",
+"name": "Rafael Weing\u00e4rtner"
+},
+"rbowen": {
+"date": "2017-10-18",
+"name": "Rich Bowen"
+},
+"sbp": {
+"date": "2017-10-18",
+"name": "Sean Palmer"
+},
+"sharan": {
+"date": "2017-10-18",
+"name": "Sharan Foga"
+},
+"turbaszek": {
+"date": "2021-05-03",
+"name": "Tomasz Urbaszek"
+},
+"ucb": {
+"date": "2017-10-18",
+"name": "Ulises Beresi"
+}
+},
+"shortdesc": "an interactive project activity analyzer and aggregator"
+},
+{
+"charter": "The mission of Apache Traffic Control is the creation and maintenance of software related to building, monitoring, configuring, and provisioning a large scale content delivery network (CDN)",
+"established": "2018-05",
+"homepage": "https://trafficcontrol.apache.org/",
+"id": "trafficcontrol",
+"name": "Apache Traffic Control",
+"retired": "2025-10",
+"roster": {
+"covener": {
+"date": "2018-05-16",
+"name": "Eric Covener"
+},
+"dangogh": {
+"date": "2018-05-16",
+"name": "Dan Kirkwood"
+},
+"dewrich": {
+"date": "2018-05-16",
+"name": "Dewayne Richardson"
+},
+"dgelinas": {
+"date": "2019-03-18",
+"name": "Derek Gelinas"
+},
+"elsloo": {
+"date": "2018-05-16",
+"name": "Jeff Elsloo"
+},
+"friede": {
+"date": "2018-05-16",
+"name": "Eric Friedrich"
+},
+"hbeatty": {
+"date": "2018-05-16",
+"name": "Hank Beatty"
+},
+"jvd": {
+"date": "2018-05-16",
+"name": "Jan van Doorn"
+},
+"mitchell852": {
+"date": "2018-05-16",
+"name": "Jeremy Mitchell"
+},
+"mtorluemke": {
+"date": "2018-05-16",
+"name": "Mark Torluemke"
+},
+"neuman": {
+"date": "2018-05-16",
+"name": "David Neuman"
+},
+"ocket8888": {
+"date": "2021-02-17",
+"name": "Brennan Fieck"
+},
+"rawlin": {
+"date": "2019-02-26",
+"name": "Rawlin Peters"
+},
+"rob": {
+"date": "2020-03-13",
+"name": "Robert Butts"
+},
+"shamrick": {
+"date": "2023-02-08",
+"name": "Steve Hamrick"
+},
+"smalenfant": {
+"date": "2018-05-16",
+"name": "Steve Malenfant"
+},
+"sorber": {
+"date": "2018-05-16",
+"name": "Phil Sorber"
+},
+"zrhoffman": {
+"date": "2021-11-19",
+"name": "Zach Hoffman"
+},
+"zwoop": {
+"date": "2018-05-16",
+"name": "Leif Hedstrom"
+}
+},
+"shortdesc": "building, monitoring, configuring, and provisioning a large scale content delivery network (CDN)"
 }
 ]

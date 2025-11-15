@@ -254,6 +254,116 @@
 "https://gitbox.apache.org/repos/asf/accumulo.git"
 ]
 },
+"accumulo-fluo": {
+"bug-database": "https://github.com/apache/accumulo-fluo/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n      existing data sets without reprocessing all data. Apache Fluo is built on\n      Apache Accumulo.",
+"doap": "https://fluo.apache.org/doap/fluo.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-02-26",
+"name": "Apache Fluo",
+"revision": "1.2.0"
+},
+{
+"created": "2017-06-12",
+"name": "Apache Fluo",
+"revision": "1.1.0-incubating"
+},
+{
+"created": "2016-10-14",
+"name": "Apache Fluo",
+"revision": "1.0.0-incubating"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo.git"
+]
+},
+"accumulo-fluo_recipes": {
+"bug-database": "https://github.com/apache/accumulo-fluo-recipes/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slower release cycle). Fluo Recipes offers code to implement common\n      patterns on top of Fluo's API. It also offers glue code to external\n      libraries like Spark and Kryo.",
+"doap": "https://fluo.apache.org/doap/fluo-recipes.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo Recipes",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-03-06",
+"name": "Apache Fluo Recipes",
+"revision": "1.2.0"
+},
+{
+"created": "2017-06-22",
+"name": "Apache Fluo Recipes",
+"revision": "1.1.0-incubating"
+},
+{
+"created": "2016-10-14",
+"name": "Apache Fluo Recipes",
+"revision": "1.0.0-incubating"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo-recipes.git"
+]
+},
+"accumulo-fluo_yarn": {
+"bug-database": "https://github.com/apache/accumulo-fluo-yarn/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
+"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo YARN",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-03-06",
+"name": "Apache Fluo YARN",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo-yarn.git"
+]
+},
 "activemq": {
 "bug-database": "http://issues.apache.org/activemq/browse/AMQ",
 "category": "network-server, network-client",
@@ -934,7 +1044,7 @@
 "repository": [
 "https://svn.apache.org/repos/asf/apr/apr/trunk"
 ],
-"shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
+"shortdesc": "\n    Cross-platform library easing many programming tasks in C. \n    "
 },
 "aries": {
 "bug-database": "http://issues.apache.org/jira/browse/ARIES",
@@ -1001,9 +1111,9 @@
 "programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
 "release": [
 {
-"created": "2025-07-17",
+"created": "2025-10-24",
 "name": "Apache Arrow",
-"revision": "21.0.0"
+"revision": "22.0.0"
 }
 ],
 "repository": [
@@ -2101,6 +2211,41 @@
 ],
 "shortdesc": "The Apache Gora open source framework provides an in-memory data model and \n         persistence for big data. Gora supports persisting to column stores, key value stores, \n         document stores, distributed in-memory key/value stores, in-memory data grids, in-memory caches,\n        distributed multi-model stores, and hybrid in-memory architectures."
 },
+"attic-griffin": {
+"bug-database": "https://issues.apache.org/jira/browse/GRIFFIN",
+"category": "retired, content",
+"created": "2018-11-21",
+"description": "Big Data Quality Solution For Batch and Streaming.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/griffin.rdf",
+"download-page": "https://griffin.apache.org/docs/latest.html",
+"homepage": "http://griffin.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://griffin.apache.org/docs/community.html",
+"name": "Apache Griffin",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-11-12",
+"name": "Griffin 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2019-04-09",
+"name": "Griffin 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2019-01-05",
+"name": "Griffin 0.4.0",
+"revision": "0.4.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/griffin.git"
+],
+"shortdesc": "Big Data Quality Solution For Batch and Streaming."
+},
 "attic-hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
 "category": "retired, big-data",
@@ -2390,6 +2535,24 @@
 "https://git-wip-us.apache.org/repos/asf/jclouds.git"
 ],
 "shortdesc": "The Java Multi-Cloud Toolkit"
+},
+"attic-kibble": {
+"bug-database": "https://github.com/apache/kibble/issues",
+"category": "big-data, retired",
+"created": "2018-03-19",
+"description": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. ",
+"doap": "https://kibble.apache.org/doap.rdf",
+"download-page": "https://kibble.apache.org/docs/downloads.html",
+"homepage": "https://kibble.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@kibble.apache.org",
+"name": "Apache Kibble",
+"pmc": "attic",
+"programming-language": "Python",
+"repository": [
+"https://github.com/apache/kibble-1.git"
+],
+"shortdesc": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. "
 },
 "attic-lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
@@ -3322,6 +3485,67 @@
 ],
 "shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
 },
+"attic-portals": {
+"bug-database": "http://portals.apache.org/issue-tracking.html",
+"category": "web-framework, retired",
+"created": "2004-02-18",
+"description": "The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.",
+"doap": "http://svn.apache.org/repos/asf/portals/doap_portals.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/portals",
+"homepage": "http://portals.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://portals.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:general@portals.apache.org",
+"name": "Apache Portals PMC"
+}
+],
+"name": "Apache Portals",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2011-10-10",
+"name": "Apache Jetspeed-2 2.2.2",
+"revision": "2.2.2"
+},
+{
+"created": "2011-09-26",
+"name": "Apache Pluto 2.0.3",
+"revision": "2.0.3"
+},
+{
+"created": "2011-09-26",
+"name": "Apache Portals Applications 1.2",
+"revision": "1.2"
+},
+{
+"created": "2007-12-28",
+"name": "Apache Portals Bridges 1.0.4",
+"revision": "1.0.4"
+},
+{
+"created": "2010-04-18",
+"name": "Apache Portals Bridges Common 2.0",
+"revision": "2.0"
+},
+{
+"created": "2010-04-18",
+"name": "Apache Portals Bridges Velocity 2.0",
+"revision": "2.0"
+},
+{
+"created": "2011-09-19",
+"name": "Apache Portals Bridges Script 2.0",
+"revision": "2.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/portals"
+],
+"shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
+},
 "attic-predictionio": {
 "bug-database": "https://issues.apache.org/jira/browse/PIO",
 "category": "retired, big-data",
@@ -3704,6 +3928,42 @@
 "http://svn.apache.org/repos/asf/tiles"
 ],
 "shortdesc": "Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces."
+},
+"attic-traffic_control": {
+"bug-database": "https://github.com/apache/trafficcontrol/issues",
+"category": "content, cloud, http, network-server, retired",
+"created": "2021-05-19",
+"description": "With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.",
+"doap": "https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf",
+"download-page": "https://trafficcontrol.apache.org/releases/, https://github.com/apache/trafficcontrol/releases",
+"homepage": "https://trafficcontrol.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://trafficcontrol.apache.org/mailing_lists/",
+"maintainer": [
+{
+"mbox": "mailto:dev@trafficcontrol.apache.org",
+"name": "Apache Traffic Control Team"
+}
+],
+"name": "Apache Traffic Control",
+"pmc": "attic",
+"programming-language": "Go",
+"release": [
+{
+"created": "2021-05-17",
+"name": "Apache Traffic Control v5.1.2",
+"revision": "5.1.2"
+},
+{
+"created": "2020-12-04",
+"name": "Apache Traffic Control v4.1.1",
+"revision": "4.1.1"
+}
+],
+"repository": [
+"https://github.com/apache/trafficcontrol.git"
+],
+"shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
 },
 "attic-trafodion": {
 "bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
@@ -4649,6 +4909,11 @@
 "pmc": "causeway",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-10-13",
+"name": "causeway",
+"revision": "4.0.0-M1"
+},
 {
 "created": "2025-07-08",
 "name": "causeway",
@@ -8453,6 +8718,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2025-09-17",
+"name": "commons-statistics",
+"revision": "1.2"
+},
+{
 "created": "2024-08-20",
 "name": "commons-statistics",
 "revision": "1.1"
@@ -9050,6 +9320,11 @@
 "programming-language": "Scala, Java",
 "release": [
 {
+"created": "2025-09-22",
+"name": "Apache Daffodil",
+"revision": "4.0.0"
+},
+{
 "created": "2025-06-17",
 "name": "Apache Daffodil",
 "revision": "3.11.0"
@@ -9226,50 +9501,11 @@
 ],
 "shortdesc": "A library of production quality streaming algorithms with platform plugins for real-time analysis of big data in Java, C++, Python, and Go."
 },
-"db-_jdo": {
-"bug-database": "https://issues.apache.org/jira/projects/JDO",
-"category": "database",
-"created": "2023-09-06",
-"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
-"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
-"download-page": "https://db.apache.org/jdo/downloads.html",
-"homepage": "https://db.apache.org/jdo/",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR-243",
-"title": "Java Data Objects",
-"url": "https://db.apache.org/jdo/specifications.html"
-}
-],
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:jdo-dev@db.apache.org",
-"name": "JDO Project"
-}
-],
-"name": "Apache  JDO",
-"pmc": "db",
-"programming-language": "Java",
-"release": [
-{
-"created": "2022-05-04",
-"name": "Java Data Objects",
-"revision": "3.2.1"
-}
-],
-"repository": [
-"https://github.com/apache/db-jdo"
-],
-"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
-},
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
 "created": "2006-03-29",
-"description": "Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.",
+"description": "Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases. The developer community voted to retire the project and move it into a read-only mode as of 2025-10-10. See https://lists.apache.org/thread/q7xnvbyo818vvtyh2b5oljr8won4zjx7",
 "doap": "http://svn.apache.org/repos/asf/db/derby/site/trunk/doap_Derby.rdf",
 "download-page": "http://db.apache.org/derby/derby_downloads.html",
 "homepage": "http://db.apache.org/derby",
@@ -9430,6 +9666,45 @@
 ],
 "shortdesc": "Apache Derby is an open source relational database implemented in Java."
 },
+"db-jdo": {
+"bug-database": "https://issues.apache.org/jira/projects/JDO",
+"category": "database",
+"created": "2023-09-06",
+"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
+"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
+"download-page": "https://db.apache.org/jdo/downloads.html",
+"homepage": "https://db.apache.org/jdo/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR-243",
+"title": "Java Data Objects",
+"url": "https://db.apache.org/jdo/specifications.html"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:jdo-dev@db.apache.org",
+"name": "JDO Project"
+}
+],
+"name": "Apache JDO",
+"pmc": "db",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-05-04",
+"name": "Java Data Objects",
+"revision": "3.2.1"
+}
+],
+"repository": [
+"https://github.com/apache/db-jdo"
+],
+"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
+},
 "db-torque": {
 "bug-database": "https://issues.apache.org/jira/browse/TORQUE",
 "category": "database",
@@ -9444,6 +9719,11 @@
 "pmc": "db",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-07-25",
+"name": "Apache Torque",
+"revision": "7.0"
+},
 {
 "created": "2024-05-08",
 "name": "Apache Torque",
@@ -9502,6 +9782,12 @@
 "https://git-wip-us.apache.org/repos/asf/deltaspike.git"
 ],
 "shortdesc": "DeltaSpike is a collection of portable Extensions for CDI Containers"
+},
+"devlake": {
+"category": "no-tlp-doap",
+"homepage": "https://devlake.apache.org",
+"name": "Apache Devlake",
+"pmc": "devlake"
 },
 "directory": {
 "bug-database": "http://issues.apache.org/jira/browse/DIR",
@@ -9807,9 +10093,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-03-11",
-"name": "apache-empire-db-3.3.0",
-"revision": "3.3.0"
+"created": "2025-10-22",
+"name": "apache-empire-db-3.4.0",
+"revision": "3.4.0"
 }
 ],
 "shortdesc": "\n\tApache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
@@ -9948,116 +10234,6 @@
 "https://gitbox.apache.org/repos/asf/flink.git"
 ],
 "shortdesc": "Fast and reliable large-scale data processing"
-},
-"fluo": {
-"bug-database": "https://github.com/apache/fluo/issues",
-"category": "big-data",
-"created": "2012-03-26",
-"description": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n      existing data sets without reprocessing all data. Apache Fluo is built on\n      Apache Accumulo.",
-"doap": "https://fluo.apache.org/doap/fluo.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo",
-"pmc": "fluo",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-02-26",
-"name": "Apache Fluo",
-"revision": "1.2.0"
-},
-{
-"created": "2017-06-12",
-"name": "Apache Fluo",
-"revision": "1.1.0-incubating"
-},
-{
-"created": "2016-10-14",
-"name": "Apache Fluo",
-"revision": "1.0.0-incubating"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo.git"
-]
-},
-"fluo-recipes": {
-"bug-database": "https://github.com/apache/fluo-recipes/issues",
-"category": "big-data",
-"created": "2012-03-26",
-"description": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slower release cycle). Fluo Recipes offers code to implement common\n      patterns on top of Fluo's API. It also offers glue code to external\n      libraries like Spark and Kryo.",
-"doap": "https://fluo.apache.org/doap/fluo-recipes.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo Recipes",
-"pmc": "fluo",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-03-06",
-"name": "Apache Fluo Recipes",
-"revision": "1.2.0"
-},
-{
-"created": "2017-06-22",
-"name": "Apache Fluo Recipes",
-"revision": "1.1.0-incubating"
-},
-{
-"created": "2016-10-14",
-"name": "Apache Fluo Recipes",
-"revision": "1.0.0-incubating"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo-recipes.git"
-]
-},
-"fluo-yarn": {
-"bug-database": "https://github.com/apache/fluo-yarn/issues",
-"category": "big-data",
-"created": "2012-03-26",
-"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
-"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo YARN",
-"pmc": "fluo",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-03-06",
-"name": "Apache Fluo YARN",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo-yarn.git"
-]
 },
 "fory": {
 "category": "no-tlp-doap",
@@ -10298,17 +10474,29 @@
 ],
 "shortdesc": "Distributed data integration framework"
 },
+"grails": {
+"bug-database": "https://github.com/apache/grails-core/issues",
+"category": "web-framework",
+"created": "2025-01-25",
+"description": "Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.",
+"doap": "https://gitbox.apache.org/repos/asf?p=grails-core.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "https://grails.apache.org/download.html",
+"homepage": "https://grails.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://grails.apache.org/community.html",
+"name": "Apache Grails",
+"pmc": "grails",
+"programming-language": "Groovy",
+"repository": [
+"https://gitbox.apache.org/repos/asf/grails-core.git"
+],
+"shortdesc": "Grails - the Groovy Web Application Framework"
+},
 "gravitino": {
 "category": "no-tlp-doap",
 "homepage": "https://gravitino.apache.org",
 "name": "Apache Gravitino",
 "pmc": "gravitino"
-},
-"griffin": {
-"category": "no-tlp-doap",
-"homepage": "https://griffin.apache.org",
-"name": "Apache Griffin",
-"pmc": "griffin"
 },
 "groovy": {
 "bug-database": "https://issues.apache.org/jira/browse/GROOVY",
@@ -10333,24 +10521,6 @@
 "https://gitbox.apache.org/repos/asf/groovy.git"
 ],
 "shortdesc": "A multi-faceted language for the Java platform"
-},
-"groovy-grails": {
-"bug-database": "https://github.com/apache/grails-core/issues",
-"category": "web-framework",
-"created": "2025-01-25",
-"description": "Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.",
-"doap": "https://gitbox.apache.org/repos/asf?p=grails-core.git;a=blob_plain;f=DOAP.rdf",
-"download-page": "https://grails.apache.org/download.html",
-"homepage": "https://grails.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://grails.apache.org/community.html",
-"name": "Apache Grails",
-"pmc": "groovy",
-"programming-language": "Groovy",
-"repository": [
-"https://gitbox.apache.org/repos/asf/grails-core.git"
-],
-"shortdesc": "Grails - the Groovy Web Application Framework"
 },
 "guacamole": {
 "bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
@@ -11948,24 +12118,6 @@
 ],
 "shortdesc": "Apache Karaf is an OSGi distribution for server-side applications."
 },
-"kibble": {
-"bug-database": "https://github.com/apache/kibble/issues",
-"category": "big-data",
-"created": "2018-03-19",
-"description": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. ",
-"doap": "https://kibble.apache.org/doap.rdf",
-"download-page": "https://kibble.apache.org/docs/downloads.html",
-"homepage": "https://kibble.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@kibble.apache.org",
-"name": "Apache Kibble",
-"pmc": "kibble",
-"programming-language": "Python",
-"repository": [
-"https://github.com/apache/kibble-1.git"
-],
-"shortdesc": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. "
-},
 "knox": {
 "bug-database": "https://issues.apache.org/jira/browse/KNOX",
 "category": "big-data",
@@ -12684,6 +12836,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2025-10-06",
+"name": "lucene-10.3.1",
+"revision": "10.3.1"
+},
+{
 "created": "2025-09-13",
 "name": "lucene-10.3.0",
 "revision": "10.3.0"
@@ -12712,6 +12869,11 @@
 "created": "2024-10-14",
 "name": "lucene-10.0.0",
 "revision": "10.0.0"
+},
+{
+"created": "2025-09-27",
+"name": "lucene-9.12.3",
+"revision": "9.12.3"
 },
 {
 "created": "2025-06-20",
@@ -14186,6 +14348,12 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2025-11-13",
+"file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-rc-5/source/apache-maven-4.0.0-rc-5-src.tar.gz",
+"name": "Apache Maven 4.0.0-rc-5",
+"revision": "4.0.0-rc-5"
+},
+{
 "created": "2024-10-22",
 "file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-beta-5/source/apache-maven-4.0.0-beta-5-src.tar.gz",
 "name": "Apache Maven 4.0.0-beta-5",
@@ -15259,6 +15427,11 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
+"created": "2025-11-10",
+"name": "Apache OFBiz R24.09",
+"revision": "24.09.03"
+},
+{
 "created": "2025-08-04",
 "name": "Apache OFBiz R24.09",
 "revision": "24.09.02"
@@ -15614,9 +15787,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-07-23",
+"created": "2025-10-20",
 "name": "Apache OpenNLP",
-"revision": "2.5.5"
+"revision": "2.5.6.1"
 }
 ],
 "repository": [
@@ -15628,7 +15801,7 @@
 "bug-database": "https://bz.apache.org/ooo/",
 "category": "content",
 "created": "2013-01-03",
-"description": "Apache OpenOffice is a leading open-source, office-document\n      productivity suite providing six productivity applications (Writer, Calc,\n      Impress, Draw, Math, Base) based around the OpenDocument Format (ODF).\n      OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM,\n      Linux 64-bit DEB+RPM and in 41languages.\n    ",
+"description": "Apache OpenOffice is a leading open-source, office-document\n      productivity suite providing six productivity applications (Writer, Calc,\n      Impress, Draw, Math, Base) based around the OpenDocument Format (ODF).\n      OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM,\n      Linux 64-bit DEB+RPM and in 41 languages.\n    ",
 "doap": "http://openoffice.apache.org/doap_openoffice.rdf",
 "download-page": "https://www.openoffice.org/download/",
 "homepage": "https://openoffice.apache.org",
@@ -15653,9 +15826,9 @@
 "programming-language": "C++",
 "release": [
 {
-"created": "2023-12-22",
-"name": "Apache OpenOffice 4.1.15",
-"revision": "4.1.15"
+"created": "2025-11-10",
+"name": "Apache OpenOffice 4.1.16",
+"revision": "4.1.16"
 }
 ],
 "repository": [
@@ -15833,6 +16006,16 @@
 "pmc": "pdfbox",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-10-16",
+"name": "Apache PDFBox",
+"revision": "3.0.6"
+},
+{
+"created": "2025-10-02",
+"name": "Apache PDFBox",
+"revision": "2.0.35"
+},
 {
 "created": "2025-05-01",
 "name": "Apache PDFBox",
@@ -16350,9 +16533,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-02-17",
-"name": "1.3.0",
-"revision": "1.3.0"
+"created": "2025-09-30",
+"name": "1.4.0",
+"revision": "1.4.0"
 }
 ],
 "repository": [
@@ -16767,67 +16950,6 @@
 "http://svn.apache.org/repos/asf/xmlbeans/trunk/"
 ],
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several\n            ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans\n            covers 100% XMLSchema support while giving access to full infoset of documents.\n        "
-},
-"portals": {
-"bug-database": "http://portals.apache.org/issue-tracking.html",
-"category": "web-framework",
-"created": "2004-02-18",
-"description": "The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.",
-"doap": "http://svn.apache.org/repos/asf/portals/doap_portals.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/portals",
-"homepage": "http://portals.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://portals.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:general@portals.apache.org",
-"name": "Apache Portals PMC"
-}
-],
-"name": "Apache Portals",
-"pmc": "portals",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-10-10",
-"name": "Apache Jetspeed-2 2.2.2",
-"revision": "2.2.2"
-},
-{
-"created": "2011-09-26",
-"name": "Apache Pluto 2.0.3",
-"revision": "2.0.3"
-},
-{
-"created": "2011-09-26",
-"name": "Apache Portals Applications 1.2",
-"revision": "1.2"
-},
-{
-"created": "2007-12-28",
-"name": "Apache Portals Bridges 1.0.4",
-"revision": "1.0.4"
-},
-{
-"created": "2010-04-18",
-"name": "Apache Portals Bridges Common 2.0",
-"revision": "2.0"
-},
-{
-"created": "2010-04-18",
-"name": "Apache Portals Bridges Velocity 2.0",
-"revision": "2.0"
-},
-{
-"created": "2011-09-19",
-"name": "Apache Portals Bridges Script 2.0",
-"revision": "2.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/portals"
-],
-"shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
 },
 "pulsar": {
 "bug-database": "https://github.com/apache/pulsar/issues",
@@ -17567,7 +17689,7 @@
 },
 {
 "body": "International Organization for Standardization",
-"id": "ISO 19111:2007",
+"id": "ISO 19111:2019",
 "title": "Geographic information — Spatial referencing by coordinates"
 },
 {
@@ -17582,7 +17704,7 @@
 },
 {
 "body": "International Organization for Standardization",
-"id": "ISO 19162:2015",
+"id": "ISO 19162:2019",
 "title": "Geographic information — Well known text representation of coordinate reference systems"
 },
 {
@@ -17684,7 +17806,7 @@
 }
 ],
 "repository": [
-"https://gitbox.apache.org/repos/asf/sis.git"
+"https://github.com/apache/sis"
 ],
 "shortdesc": "A library for developing geospatial applications."
 },
@@ -17755,6 +17877,11 @@
 "pmc": "solr",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-11-06",
+"name": "solr-9.10.0",
+"revision": "9.10.0"
+},
 {
 "created": "2025-07-24",
 "name": "solr-9.9.0",
@@ -19575,9 +19702,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-09-12",
+"created": "2025-11-10",
 "name": "Latest Stable 10.1.x Release",
-"revision": "10.1.46"
+"revision": "10.1.49"
 },
 {
 "created": "2022-10-10",
@@ -19585,9 +19712,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-09-05",
+"created": "2025-11-10",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.109"
+"revision": "9.0.112"
 }
 ],
 "repository": [
@@ -19641,42 +19768,6 @@
 ],
 "shortdesc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
 "vendor": "The Apache Software Foundation"
-},
-"trafficcontrol-traffic_control": {
-"bug-database": "https://github.com/apache/trafficcontrol/issues",
-"category": "content, cloud, http, network-server",
-"created": "2021-05-19",
-"description": "With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.",
-"doap": "https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf",
-"download-page": "https://trafficcontrol.apache.org/releases/, https://github.com/apache/trafficcontrol/releases",
-"homepage": "https://trafficcontrol.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://trafficcontrol.apache.org/mailing_lists/",
-"maintainer": [
-{
-"mbox": "mailto:dev@trafficcontrol.apache.org",
-"name": "Apache Traffic Control Team"
-}
-],
-"name": "Apache Traffic Control",
-"pmc": "trafficcontrol",
-"programming-language": "Go",
-"release": [
-{
-"created": "2021-05-17",
-"name": "Apache Traffic Control v5.1.2",
-"revision": "5.1.2"
-},
-{
-"created": "2020-12-04",
-"name": "Apache Traffic Control v4.1.1",
-"revision": "4.1.1"
-}
-],
-"repository": [
-"https://github.com/apache/trafficcontrol.git"
-],
-"shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
 },
 "trafficserver-traffic_server": {
 "bug-database": "https://github.com/apache/trafficserver/issues",
@@ -19920,9 +20011,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-09-02",
-"name": "2.7.0",
-"revision": "2.7.0"
+"created": "2025-11-10",
+"name": "3.0.0",
+"revision": "3.0.0"
 }
 ],
 "repository": [
@@ -20542,9 +20633,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-04-25",
+"created": "2025-09-30",
 "name": "Latest Stable Release",
-"revision": "10.6.0"
+"revision": "10.7.0"
 }
 ],
 "repository": [

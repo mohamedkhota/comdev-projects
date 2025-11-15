@@ -289,6 +289,7 @@
 "abeizn": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -345,7 +346,8 @@
 },
 "abhi": {
 "groups": [
-"ranger"
+"ranger",
+"ranger-pmc"
 ],
 "member": false,
 "name": "Abhishek Kumar"
@@ -373,6 +375,13 @@
 ],
 "member": false,
 "name": "Abhishek Agarwal"
+},
+"abhishekpal": {
+"groups": [
+"ozone"
+],
+"member": false,
+"name": "Abhishek Pal"
 },
 "abhishekpatil": {
 "groups": [
@@ -418,6 +427,13 @@
 ],
 "member": false,
 "name": "Arpad Boda"
+},
+"abogi": {
+"groups": [
+"syncope"
+],
+"member": false,
+"name": "Alberto Bogi"
 },
 "abr": {
 "groups": [
@@ -478,14 +494,6 @@
 ],
 "member": false,
 "name": "Abu Obeida Bakhach"
-},
-"abudnik": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Andrei Budnik"
 },
 "abudnikov": {
 "groups": [
@@ -594,8 +602,7 @@
 },
 "acoliver": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Andrew C. Oliver"
@@ -1390,7 +1397,8 @@
 },
 "agupta": {
 "groups": [
-"ozone"
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Aryan Gupta"
@@ -1456,7 +1464,8 @@
 },
 "ahmar": {
 "groups": [
-"hadoop"
+"hadoop",
+"hadoop-pmc"
 ],
 "member": false,
 "name": "Ahmar Suhail"
@@ -1516,13 +1525,6 @@
 ],
 "member": false,
 "name": "Ali Risheh"
-},
-"aichrist": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Andy I.C."
 },
 "aichy": {
 "groups": [
@@ -2006,7 +2008,8 @@
 "arrow",
 "arrow-pmc",
 "datafusion",
-"datafusion-pmc"
+"datafusion-pmc",
+"parquet"
 ],
 "member": true,
 "name": "Andrew Lamb"
@@ -2312,6 +2315,14 @@
 "member": false,
 "name": "Alex Lv"
 },
+"alexoree": {
+"groups": [
+"jspwiki",
+"jspwiki-pmc"
+],
+"member": false,
+"name": "Alex O'Ree"
+},
 "alexott": {
 "groups": [
 "zeppelin"
@@ -2327,14 +2338,6 @@
 ],
 "member": false,
 "name": "Alex Plehanov"
-},
-"alexr": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Alex R"
 },
 "alexstocks": {
 "groups": [
@@ -2439,9 +2442,7 @@
 },
 "alig": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Ali Ghodsi"
@@ -2755,13 +2756,6 @@
 ],
 "member": false,
 "name": "Amogh Margoor"
-},
-"amarkovics": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Ádám Markovics"
 },
 "amarrk": {
 "groups": [
@@ -3105,14 +3099,6 @@
 "member": false,
 "name": "Ana Klimovic"
 },
-"anand": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Anand Mazumdar"
-},
 "anandinguva": {
 "groups": [
 "beam"
@@ -3232,8 +3218,6 @@
 "andrew": {
 "groups": [
 "incubator",
-"mesos",
-"mesos-pmc",
 "spark",
 "spark-pmc"
 ],
@@ -3331,14 +3315,6 @@
 ],
 "member": false,
 "name": "Andrzej Rusin"
-},
-"andschwa": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Andrew Schwartzmeyer"
 },
 "andy": {
 "groups": [
@@ -4311,7 +4287,8 @@
 },
 "areeve": {
 "groups": [
-"arrow"
+"arrow",
+"arrow-pmc"
 ],
 "member": false,
 "name": "Adam Reeve"
@@ -4469,14 +4446,6 @@
 ],
 "member": false,
 "name": "Alexandra Rodoni"
-},
-"arojas": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Alexander Rojas"
 },
 "aromanenko": {
 "groups": [
@@ -4762,22 +4731,6 @@
 ],
 "member": false,
 "name": "Benedict Jin"
-},
-"asekretenko": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Andrei Sekretenko"
-},
-"asfgriff": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Neil Griffin"
 },
 "asgoyal": {
 "groups": [
@@ -5204,8 +5157,6 @@
 "incubator-pmc",
 "netbeans",
 "netbeans-pmc",
-"portals",
-"portals-pmc",
 "wicket",
 "wicket-pmc"
 ],
@@ -5744,13 +5695,6 @@
 "member": false,
 "name": "Zhang Yongxiang"
 },
-"bakaid": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Dániel Bakai"
-},
 "bakerkj": {
 "groups": [
 "incubator"
@@ -5787,6 +5731,13 @@
 ],
 "member": false,
 "name": "Baljinder Singh"
+},
+"bamboo": {
+"groups": [
+"devlake"
+],
+"member": false,
+"name": "Zijian Wang"
 },
 "bandaram": {
 "groups": [
@@ -5979,14 +5930,6 @@
 "member": false,
 "name": "Patrick Jiang"
 },
-"bbannier": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Benjamin Bannier"
-},
 "bbastian": {
 "groups": [
 "couchdb"
@@ -6169,7 +6112,6 @@
 "openserverless",
 "openwhisk",
 "openwhisk-pmc",
-"polaris",
 "sling",
 "sling-pmc",
 "xalan"
@@ -6252,8 +6194,7 @@
 },
 "behl": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Stefan Behl"
@@ -6275,6 +6216,7 @@
 },
 "beliefer": {
 "groups": [
+"gluten",
 "spark"
 ],
 "member": false,
@@ -6339,8 +6281,6 @@
 },
 "benh": {
 "groups": [
-"mesos",
-"mesos-pmc",
 "storm"
 ],
 "member": false,
@@ -6348,6 +6288,7 @@
 },
 "benjobs": {
 "groups": [
+"fesod",
 "incubator",
 "incubator-pmc",
 "seatunnel",
@@ -6387,14 +6328,6 @@
 ],
 "member": false,
 "name": "Benn"
-},
-"bennoe": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Benno Evers"
 },
 "benoitc": {
 "groups": [
@@ -6519,14 +6452,6 @@
 ],
 "member": false,
 "name": "Bernardo De Marco Gonçalves"
-},
-"bernd": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Bernd Mathiske"
 },
 "berndf": {
 "groups": [
@@ -7197,6 +7122,7 @@
 "bkoehm": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -7404,13 +7330,6 @@
 "member": false,
 "name": "Bryant Luk"
 },
-"blumm": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Michael Blum"
-},
 "bmahe": {
 "groups": [
 "bigtop",
@@ -7422,9 +7341,7 @@
 },
 "bmahler": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Benjamin Mahler"
@@ -7694,6 +7611,14 @@
 "member": true,
 "name": "Bernd Bohmann"
 },
+"bonampak": {
+"groups": [
+"knox",
+"knox-pmc"
+],
+"member": false,
+"name": "Tamás Marcinkovics"
+},
 "bond": {
 "groups": [
 "incubator"
@@ -7711,6 +7636,7 @@
 "borinquenkid": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -7880,6 +7806,13 @@
 "member": false,
 "name": "Bjoern Petri"
 },
+"bpetrov": {
+"groups": [
+"shiro"
+],
+"member": false,
+"name": "Boris Petrov"
+},
 "bphillips": {
 "groups": [
 "struts"
@@ -7900,13 +7833,6 @@
 ],
 "member": false,
 "name": "Bobby Powers"
-},
-"bqiu": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Ben Qiu"
 },
 "brad": {
 "groups": [
@@ -8032,9 +7958,7 @@
 },
 "brenden": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Brenden Matthews"
@@ -8146,8 +8070,6 @@
 "httpd-pmc",
 "incubator",
 "incubator-pmc",
-"mesos",
-"mesos-pmc",
 "openjpa"
 ],
 "member": true,
@@ -8299,13 +8221,6 @@
 ],
 "member": false,
 "name": "Chao Wang"
-},
-"brosander": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Bryan Rosander"
 },
 "bross": {
 "groups": [
@@ -9447,14 +9362,6 @@
 "member": false,
 "name": "Christina Dionysio"
 },
-"cdoremus": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Craig Doremus"
-},
 "cdouglas": {
 "groups": [
 "atlas",
@@ -9498,8 +9405,6 @@
 "incubator-pmc",
 "iotdb",
 "iotdb-pmc",
-"kibble",
-"kibble-pmc",
 "mahout",
 "plc4x",
 "plc4x-pmc",
@@ -9644,14 +9549,6 @@
 ],
 "member": true,
 "name": "Cezar Cristian Andrei"
-},
-"cfnatali": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Charles-François Natali"
 },
 "cframpton": {
 "groups": [
@@ -10475,14 +10372,6 @@
 ],
 "member": false,
 "name": "Hao Cheng"
-},
-"chhsiao": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Chun-Hung Hsiao"
 },
 "chia7712": {
 "groups": [
@@ -11380,15 +11269,11 @@
 "incubator",
 "incubator-pmc",
 "jspwiki",
-"juneau",
-"juneau-pmc",
 "logodev",
 "logodev-pmc",
 "openjpa",
 "security",
 "security-pmc",
-"shardingsphere",
-"shardingsphere-pmc",
 "training",
 "training-pmc",
 "whimsy",
@@ -12127,8 +12012,6 @@
 },
 "crossley": {
 "groups": [
-"creadur",
-"creadur-pmc",
 "incubator"
 ],
 "member": true,
@@ -12572,7 +12455,6 @@
 "felix-pmc",
 "incubator",
 "openwhisk",
-"portals",
 "sling",
 "sling-pmc"
 ],
@@ -13468,6 +13350,7 @@
 "davydotcom": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -13786,13 +13669,6 @@
 "member": false,
 "name": "David Cromberge"
 },
-"ddam": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Dennis Dam"
-},
 "ddanielr": {
 "groups": [
 "accumulo",
@@ -13854,8 +13730,6 @@
 },
 "ddewolf": {
 "groups": [
-"portals",
-"portals-pmc",
 "struts"
 ],
 "member": false,
@@ -13898,6 +13772,13 @@
 ],
 "member": false,
 "name": "Drew Walters"
+},
+"deemo": {
+"groups": [
+"kvrocks"
+],
+"member": false,
+"name": "Rongxing Xiao"
 },
 "deepa": {
 "groups": [
@@ -14006,6 +13887,14 @@
 "member": false,
 "name": "Maria Arias de Reyna Dominguez"
 },
+"delei": {
+"groups": [
+"fesod",
+"incubator"
+],
+"member": false,
+"name": "Ziqiu Guo"
+},
 "delos": {
 "groups": [
 "geronimo",
@@ -14039,8 +13928,7 @@
 "denes": {
 "groups": [
 "flume",
-"flume-pmc",
-"nifi"
+"flume-pmc"
 ],
 "member": false,
 "name": "Denes Arvay"
@@ -14193,13 +14081,6 @@
 ],
 "member": true,
 "name": "Martin Desruisseaux"
-},
-"dettborn": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Torsten Dettborn"
 },
 "dev_warlord": {
 "groups": [
@@ -14811,8 +14692,6 @@
 "gump",
 "gump-pmc",
 "incubator",
-"portals",
-"portals-pmc",
 "santuario"
 ],
 "member": true,
@@ -15061,7 +14940,6 @@
 "djencks": {
 "groups": [
 "activemq",
-"activemq-pmc",
 "aries",
 "aries-pmc",
 "bval",
@@ -15331,19 +15209,10 @@
 "dlester": {
 "groups": [
 "incubator",
-"incubator-pmc",
-"mesos",
-"mesos-pmc"
+"incubator-pmc"
 ],
 "member": true,
 "name": "Dave Lester"
-},
-"dlestrat": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "David LeStrat"
 },
 "dliaskovskyi": {
 "groups": [
@@ -15395,8 +15264,7 @@
 },
 "dlouzan": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Diego Louzan Martinez"
@@ -15451,14 +15319,6 @@
 ],
 "member": false,
 "name": "Dmitriy Lyubimov"
-},
-"dma": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Dominic Hamon"
 },
 "dmagda": {
 "groups": [
@@ -16528,6 +16388,13 @@
 "member": false,
 "name": "Dimitris Tsirogiannis"
 },
+"duansg": {
+"groups": [
+"hertzbeat"
+],
+"member": false,
+"name": "SiGuo Duan"
+},
 "duanzhengqiang": {
 "groups": [
 "shardingsphere",
@@ -16843,6 +16710,7 @@
 "e2corporation": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -17088,26 +16956,12 @@
 "member": false,
 "name": "Erik Craig"
 },
-"edalquist": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Eric Dalquist"
-},
 "edanuff": {
 "groups": [
 "incubator"
 ],
 "member": false,
 "name": "Ed Anuff"
-},
-"edbe": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Ed Berezitsky"
 },
 "edcable": {
 "groups": [
@@ -18128,7 +17982,8 @@
 },
 "erickguan": {
 "groups": [
-"opendal"
+"opendal",
+"opendal-pmc"
 ],
 "member": false,
 "name": "Erick Guan"
@@ -18367,14 +18222,6 @@
 ],
 "member": false,
 "name": "Eberhard Speer Jr."
-},
-"esm": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Elliot Metsger"
 },
 "espeed": {
 "groups": [
@@ -18859,6 +18706,7 @@
 "groups": [
 "burr",
 "drill",
+"fesod",
 "fory",
 "fory-pmc",
 "hamilton",
@@ -18874,7 +18722,8 @@
 "security",
 "security-pmc",
 "stormcrawler",
-"texera"
+"texera",
+"toree"
 ],
 "member": true,
 "name": "PJ Fanning"
@@ -19097,6 +18946,7 @@
 "age",
 "age-pmc",
 "devlake",
+"devlake-pmc",
 "gluten",
 "incubator",
 "incubator-pmc",
@@ -19159,6 +19009,13 @@
 "member": false,
 "name": "Feng Dong"
 },
+"fengchen": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Feng Chen"
+},
 "fenghh": {
 "groups": [
 "hbase"
@@ -19217,7 +19074,8 @@
 },
 "fengzhang": {
 "groups": [
-"sedona"
+"sedona",
+"sedona-pmc"
 ],
 "member": false,
 "name": "Feng Zhang"
@@ -19573,6 +19431,13 @@
 "member": true,
 "name": "Florian Hockmann"
 },
+"florianmo": {
+"groups": [
+"ofbiz"
+],
+"member": false,
+"name": "Florian Motteau"
+},
 "floriansemm": {
 "groups": [
 "logging"
@@ -19764,6 +19629,7 @@
 "karaf",
 "karaf-pmc",
 "openserverless",
+"polaris",
 "shiro",
 "shiro-pmc",
 "unomi",
@@ -20209,6 +20075,13 @@
 "member": false,
 "name": "Gabor Bota"
 },
+"gabotechs": {
+"groups": [
+"datafusion"
+],
+"member": false,
+"name": "Gabriel Musat"
+},
 "gabriel": {
 "groups": [
 "cloudstack",
@@ -20336,6 +20209,7 @@
 "groups": [
 "arrow",
 "arrow-pmc",
+"iceberg",
 "orc",
 "orc-pmc",
 "parquet",
@@ -20555,14 +20429,6 @@
 ],
 "member": false,
 "name": "George Gastaldi"
-},
-"gaston": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Gastón Kleiman"
 },
 "gates": {
 "groups": [
@@ -21188,13 +21054,6 @@
 "member": false,
 "name": "Gábor Gévay"
 },
-"ggolden": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Glenn Golden"
-},
 "ggregory": {
 "groups": [
 "commons",
@@ -21365,14 +21224,6 @@
 ],
 "member": false,
 "name": "Marc Giger"
-},
-"gilbert": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Gilbert Song"
 },
 "giles": {
 "groups": [
@@ -22013,14 +21864,6 @@
 "member": false,
 "name": "Graeme Seaton"
 },
-"grag": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Greg Mann"
-},
 "grahamd": {
 "groups": [
 "httpd",
@@ -22254,6 +22097,7 @@
 "grocher": {
 "groups": [
 "grails",
+"grails-pmc",
 "groovy",
 "incubator"
 ],
@@ -22454,6 +22298,13 @@
 "member": false,
 "name": "Li Lu"
 },
+"gtchaboussie": {
+"groups": [
+"ofbiz"
+],
+"member": false,
+"name": "Gaetan Chaboussie"
+},
 "gtouratier": {
 "groups": [
 "incubator"
@@ -22503,6 +22354,14 @@
 ],
 "member": false,
 "name": "Guanhua Li"
+},
+"guanmingchiu": {
+"groups": [
+"airflow",
+"mahout"
+],
+"member": false,
+"name": "Guan-Ming Chiu"
 },
 "guberti": {
 "groups": [
@@ -22909,14 +22768,6 @@
 "member": false,
 "name": "Gyula Fora"
 },
-"gyliu": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Guangya Liu"
-},
 "gzurowski": {
 "groups": [
 "camel",
@@ -23115,8 +22966,7 @@
 },
 "hammant": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Paul Hammant"
@@ -23168,6 +23018,14 @@
 ],
 "member": false,
 "name": "Hong Fang Han"
+},
+"hanicz": {
+"groups": [
+"knox",
+"knox-pmc"
+],
+"member": false,
+"name": "Tamás Hanicz"
 },
 "hanishakoneru": {
 "groups": [
@@ -23296,14 +23154,6 @@
 ],
 "member": false,
 "name": "Haonan Hou"
-},
-"haosdent": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Haosdent Huang"
 },
 "haoyann": {
 "groups": [
@@ -23579,8 +23429,6 @@
 "attic-pmc",
 "comdev",
 "comdev-pmc",
-"kibble",
-"kibble-pmc",
 "maven",
 "maven-pmc"
 ],
@@ -24105,6 +23953,7 @@
 "hez": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -25096,8 +24945,6 @@
 "httpd-pmc",
 "incubator",
 "incubator-pmc",
-"kibble",
-"kibble-pmc",
 "logodev",
 "logodev-pmc",
 "netbeans",
@@ -25413,8 +25260,6 @@
 "apr",
 "httpd",
 "incubator",
-"mesos",
-"mesos-pmc",
 "sis"
 ],
 "member": false,
@@ -25542,14 +25387,6 @@
 ],
 "member": false,
 "name": "Beining Liang"
-},
-"idownes": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Ian Downes"
 },
 "idus": {
 "groups": [
@@ -26011,14 +25848,6 @@
 ],
 "member": false,
 "name": "Ingrid von der Mehden"
-},
-"inigoao": {
-"groups": [
-"plc4x",
-"plc4x-pmc"
-],
-"member": false,
-"name": "Iñigo Angulo Otegi"
 },
 "inigoiri": {
 "groups": [
@@ -26854,6 +26683,7 @@
 "jamesfredley": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -27145,6 +26975,13 @@
 ],
 "member": false,
 "name": "Jasha Joachimsthal"
+},
+"jasmine": {
+"groups": [
+"trafficserver"
+],
+"member": false,
+"name": "Jasmine Emanouel"
 },
 "jasobrown": {
 "groups": [
@@ -27617,6 +27454,7 @@
 "creadur",
 "creadur-pmc",
 "devlake",
+"devlake-pmc",
 "eventmesh",
 "eventmesh-pmc",
 "felix",
@@ -27984,6 +27822,7 @@
 "jdaugherty": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -28503,6 +28342,7 @@
 "jerpelea": {
 "groups": [
 "incubator",
+"incubator-pmc",
 "nuttx",
 "nuttx-pmc"
 ],
@@ -28750,13 +28590,6 @@
 ],
 "member": false,
 "name": "Jackson Fleming"
-},
-"jford": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Jeremy Lewis Ford"
 },
 "jfrangipane": {
 "groups": [
@@ -29412,6 +29245,14 @@
 "member": false,
 "name": "Xiaowei Jiang"
 },
+"jiangzj": {
+"groups": [
+"amoro",
+"incubator"
+],
+"member": false,
+"name": "Zhuojun Jiang"
+},
 "jianhaixu": {
 "groups": [
 "dubbo",
@@ -29583,6 +29424,7 @@
 "jibin": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -29602,14 +29444,6 @@
 ],
 "member": false,
 "name": "Grace Huang"
-},
-"jieyu": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Jie Yu"
 },
 "jignesh": {
 "groups": [
@@ -29908,7 +29742,8 @@
 },
 "jinwoo": {
 "groups": [
-"geode"
+"geode",
+"geode-pmc"
 ],
 "member": false,
 "name": "Jinwoo Hwang"
@@ -29952,6 +29787,14 @@
 ],
 "member": false,
 "name": "Jin Zhenxiao"
+},
+"jipengfei": {
+"groups": [
+"fesod",
+"incubator"
+],
+"member": false,
+"name": "Pengfei Ji"
 },
 "jiriondrusek": {
 "groups": [
@@ -30155,6 +29998,13 @@
 ],
 "member": false,
 "name": "Joel Knighton"
+},
+"jkonisa": {
+"groups": [
+"cassandra"
+],
+"member": false,
+"name": "Jyothsna Konisa"
 },
 "jkosin": {
 "groups": [
@@ -30405,9 +30255,7 @@
 },
 "jmacna": {
 "groups": [
-"incubator",
-"portals",
-"portals-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Julie E. MacNaught"
@@ -30797,17 +30645,12 @@
 "jochen": {
 "groups": [
 "commons",
-"commons-pmc",
-"creadur",
-"creadur-pmc",
 "incubator",
-"incubator-pmc",
 "james",
 "juneau",
 "juneau-pmc",
 "perl",
-"ws",
-"ws-pmc"
+"ws"
 ],
 "member": true,
 "name": "Jochen Wiedmann"
@@ -31332,6 +31175,7 @@
 "joncodo": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -31522,14 +31366,6 @@
 "member": true,
 "name": "Jorge Luis Betancourt Gonzalez"
 },
-"joris": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Joris Van Remoortere"
-},
 "jorisvandenbossche": {
 "groups": [
 "arrow",
@@ -31608,14 +31444,6 @@
 ],
 "member": false,
 "name": "Joseph Labrecque"
-},
-"josephwu": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Joseph Wu"
 },
 "josh": {
 "groups": [
@@ -31756,8 +31584,6 @@
 },
 "jpeach": {
 "groups": [
-"mesos",
-"mesos-pmc",
 "trafficserver",
 "trafficserver-pmc"
 ],
@@ -33104,8 +32930,7 @@
 },
 "jyang": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Jun Yang"
@@ -33509,14 +33334,6 @@
 "member": true,
 "name": "Kalle Korhonen"
 },
-"kapil": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Kapil Arya"
-},
 "karan": {
 "groups": [
 "druid",
@@ -33527,6 +33344,8 @@
 },
 "karanjeet": {
 "groups": [
+"incubator",
+"incubator-pmc",
 "nutch",
 "nutch-pmc"
 ],
@@ -33707,8 +33526,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
-"incubator",
-"kibble"
+"incubator"
 ],
 "member": true,
 "name": "Kaxil Naik"
@@ -33908,8 +33726,6 @@
 "incubator",
 "incubator-pmc",
 "inlong",
-"kibble",
-"kibble-pmc",
 "petri",
 "petri-pmc"
 ],
@@ -34579,6 +34395,13 @@
 "member": false,
 "name": "Kimm King"
 },
+"kinghao": {
+"groups": [
+"linkis"
+],
+"member": false,
+"name": "King Hao"
+},
 "kingluo": {
 "groups": [
 "apisix"
@@ -34595,7 +34418,8 @@
 },
 "kingsword09": {
 "groups": [
-"opendal"
+"opendal",
+"opendal-pmc"
 ],
 "member": false,
 "name": "Jianping Huang"
@@ -34944,6 +34768,7 @@
 "klesh": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -34972,14 +34797,6 @@
 ],
 "member": false,
 "name": "Congxian Qiu"
-},
-"klueska": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Kevin Klues"
 },
 "kluge": {
 "groups": [
@@ -35395,13 +35212,6 @@
 ],
 "member": false,
 "name": "Kostas Sakellis"
-},
-"kotarot": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Kotaro Terada"
 },
 "kotkov": {
 "groups": [
@@ -36036,6 +35846,13 @@
 "member": false,
 "name": "Kang Xiao"
 },
+"kylebarron": {
+"groups": [
+"arrow"
+],
+"member": false,
+"name": "Kyle Barron"
+},
 "kylerichardson": {
 "groups": [
 "incubator"
@@ -36097,6 +35914,13 @@
 ],
 "member": false,
 "name": "Lynn Hughes-Godfrey"
+},
+"laeubi": {
+"groups": [
+"maven"
+],
+"member": false,
+"name": "Christoph Läubrich"
 },
 "lahiru": {
 "groups": [
@@ -36543,6 +36367,14 @@
 ],
 "member": false,
 "name": "Jonathan Leavitt"
+},
+"leborchuk": {
+"groups": [
+"cloudberry",
+"incubator"
+],
+"member": false,
+"name": "Leonid Borchuk"
 },
 "ledagl": {
 "groups": [
@@ -37062,6 +36894,7 @@
 "groups": [
 "bookkeeper",
 "grails",
+"grails-pmc",
 "incubator",
 "incubator-pmc",
 "otava",
@@ -37237,6 +37070,7 @@
 "celeborn",
 "celeborn-pmc",
 "devlake",
+"devlake-pmc",
 "dolphinscheduler",
 "dolphinscheduler-pmc",
 "hugegraph",
@@ -37543,7 +37377,8 @@
 },
 "linguini": {
 "groups": [
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Matteo Golin"
@@ -38385,8 +38220,6 @@
 "hadoop",
 "incubator",
 "incubator-pmc",
-"kibble",
-"kibble-pmc",
 "knox",
 "knox-pmc",
 "livy",
@@ -39178,6 +39011,7 @@
 "lynwee": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -39555,13 +39389,6 @@
 "member": false,
 "name": "Mahesh Bandal"
 },
-"mahmedk91": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Ahmed"
-},
 "maho": {
 "groups": [
 "incubator",
@@ -39903,6 +39730,14 @@
 ],
 "member": false,
 "name": "Han Minghao"
+},
+"maple": {
+"groups": [
+"incubator",
+"seata"
+],
+"member": false,
+"name": "Shengkai Gao"
 },
 "maplefu": {
 "groups": [
@@ -40418,8 +40253,6 @@
 },
 "martinkl": {
 "groups": [
-"avro",
-"avro-pmc",
 "incubator",
 "samza",
 "samza-pmc"
@@ -40471,6 +40304,14 @@
 ],
 "member": false,
 "name": "Martyn Taylor"
+},
+"maruilei": {
+"groups": [
+"auron",
+"incubator"
+],
+"member": false,
+"name": "Ruilei Ma"
 },
 "maruyue": {
 "groups": [
@@ -40595,6 +40436,13 @@
 "member": false,
 "name": "Sebastian Mohr"
 },
+"matato": {
+"groups": [
+"syncope"
+],
+"member": false,
+"name": "Matteo Tatoni"
+},
 "matbrown": {
 "groups": [
 "incubator"
@@ -40606,8 +40454,6 @@
 "groups": [
 "hadoop",
 "incubator",
-"mesos",
-"mesos-pmc",
 "spark",
 "spark-pmc"
 ],
@@ -40624,6 +40470,7 @@
 "matrei": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -40736,8 +40583,6 @@
 "knox-pmc",
 "kudu",
 "kudu-pmc",
-"mesos",
-"mesos-pmc",
 "nutch",
 "nutch-pmc",
 "opennlp",
@@ -40757,6 +40602,7 @@
 "groups": [
 "activemq",
 "activemq-pmc",
+"karaf",
 "openjpa",
 "wicket",
 "wicket-pmc"
@@ -40930,6 +40776,7 @@
 "maximwheatley": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -41104,7 +40951,8 @@
 },
 "mbathori": {
 "groups": [
-"nifi"
+"nifi",
+"nifi-pmc"
 ],
 "member": false,
 "name": "Mark Bathori"
@@ -41272,7 +41120,8 @@
 },
 "mbrobbel": {
 "groups": [
-"arrow"
+"arrow",
+"arrow-pmc"
 ],
 "member": false,
 "name": "Matthijs Brobbel"
@@ -41376,6 +41225,13 @@
 ],
 "member": false,
 "name": "Stephen McConnell"
+},
+"mccullocht": {
+"groups": [
+"lucene"
+],
+"member": false,
+"name": "Trevor McCulloch"
 },
 "mcculls": {
 "groups": [
@@ -41652,9 +41508,7 @@
 },
 "me": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Adam"
@@ -41853,7 +41707,8 @@
 },
 "meonkeys": {
 "groups": [
-"fineract"
+"fineract",
+"fineract-pmc"
 ],
 "member": false,
 "name": "Adam Monsen"
@@ -42270,13 +42125,6 @@
 "member": false,
 "name": "Hasnain Lakhani"
 },
-"mhogue": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Mike Hogue"
-},
 "mhollmichel": {
 "groups": [
 "incubator",
@@ -42437,14 +42285,6 @@
 ],
 "member": false,
 "name": "Michael S. Molina"
-},
-"michalslowikowski": {
-"groups": [
-"kibble",
-"kibble-pmc"
-],
-"member": false,
-"name": "Michał Słowikowski"
 },
 "michel": {
 "groups": [
@@ -42991,6 +42831,13 @@
 ],
 "member": false,
 "name": "Mitch Schussler"
+},
+"mitdesai": {
+"groups": [
+"yunikorn"
+],
+"member": false,
+"name": "Mit Desai"
 },
 "mithmatt": {
 "groups": [
@@ -43810,13 +43657,6 @@
 "member": false,
 "name": "Vikas Mayur"
 },
-"morciuch": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Mark Orciuch"
-},
 "more": {
 "groups": [
 "knox",
@@ -43985,14 +43825,6 @@
 ],
 "member": false,
 "name": "Papirkovskyy Myroslav"
-},
-"mpark": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Michael Park"
 },
 "mpercy": {
 "groups": [
@@ -44384,14 +44216,6 @@
 "member": false,
 "name": "Shahbaz Memon"
 },
-"msnicklous": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Scott Nicklous"
-},
 "msoliman": {
 "groups": [
 "incubator"
@@ -44524,13 +44348,6 @@
 ],
 "member": false,
 "name": "Mike Thomsen"
-},
-"mtien": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Margot Tien"
 },
 "mtoepfer": {
 "groups": [
@@ -44969,14 +44786,6 @@
 "member": false,
 "name": "Makoto Yui"
 },
-"mzhu": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Meng Zhu"
-},
 "mzl": {
 "groups": [
 "incubator"
@@ -45230,6 +45039,7 @@
 "narro": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -45496,6 +45306,13 @@
 "member": false,
 "name": "Neeraj Mangal"
 },
+"nehan": {
+"groups": [
+"lucenenet"
+],
+"member": false,
+"name": "Nehan Pathan"
+},
 "nehanarkhede": {
 "groups": [
 "incubator",
@@ -45516,9 +45333,7 @@
 },
 "neilc": {
 "groups": [
-"apr",
-"mesos",
-"mesos-pmc"
+"apr"
 ],
 "member": false,
 "name": "Neil Conway"
@@ -46102,6 +45917,7 @@
 "cxf",
 "cxf-pmc",
 "devlake",
+"devlake-pmc",
 "doris",
 "doris-pmc",
 "geaflow",
@@ -46389,14 +46205,6 @@
 "member": false,
 "name": "Noah Levitt"
 },
-"nlothian": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Nick Lothian"
-},
 "nlsegerl": {
 "groups": [
 "incubator"
@@ -46478,14 +46286,6 @@
 ],
 "member": false,
 "name": "Nabarun Nag"
-},
-"nnielsen": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Niklas Quarfot Nielsen"
 },
 "noa": {
 "groups": [
@@ -46711,6 +46511,7 @@
 "nscendoni": {
 "groups": [
 "incubator",
+"sling",
 "syncope"
 ],
 "member": false,
@@ -46996,7 +46797,8 @@
 },
 "oehler": {
 "groups": [
-"streampipes"
+"streampipes",
+"streampipes-pmc"
 ],
 "member": false,
 "name": "Sven Oehler"
@@ -47837,7 +47639,8 @@
 "paleolimbot": {
 "groups": [
 "arrow",
-"arrow-pmc"
+"arrow-pmc",
+"sedona"
 ],
 "member": false,
 "name": "Dewey Dunnington"
@@ -48170,6 +47973,7 @@
 "groups": [
 "geaflow",
 "grails",
+"grails-pmc",
 "groovy",
 "groovy-pmc",
 "incubator",
@@ -48243,8 +48047,7 @@
 },
 "paulsp": {
 "groups": [
-"myfaces",
-"portals"
+"myfaces"
 ],
 "member": false,
 "name": "Paul Spencer"
@@ -48823,6 +48626,13 @@
 "member": false,
 "name": "Peter Lee"
 },
+"petern": {
+"groups": [
+"sedona"
+],
+"member": false,
+"name": "Peter Nguyen"
+},
 "peterreilly": {
 "groups": [
 "ant",
@@ -48880,8 +48690,7 @@
 },
 "pfisher": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Peter Fischer"
@@ -49018,16 +48827,6 @@
 ],
 "member": false,
 "name": "Phil"
-},
-"philz": {
-"groups": [
-"avro",
-"avro-pmc",
-"impala",
-"impala-pmc"
-],
-"member": false,
-"name": "Philip Zeyliger"
 },
 "phred": {
 "groups": [
@@ -49496,13 +49295,6 @@
 "member": false,
 "name": "Paul Franklin McMahan"
 },
-"pmd": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Philip Mark Donaghy"
-},
 "pmi": {
 "groups": [
 "unomi"
@@ -49620,14 +49412,6 @@
 "member": false,
 "name": "Paul Libbrecht"
 },
-"pono": {
-"groups": [
-"kibble",
-"kibble-pmc"
-],
-"member": true,
-"name": "Daniel Takamori"
-},
 "pooja": {
 "groups": [
 "impala"
@@ -49685,8 +49469,12 @@
 "groups": [
 "airflow",
 "airflow-pmc",
+"burr",
 "diversity",
 "diversity-pmc",
+"hamilton",
+"incubator",
+"incubator-pmc",
 "security",
 "security-pmc"
 ],
@@ -50320,6 +50108,7 @@
 },
 "psxjoy": {
 "groups": [
+"fesod",
 "incubator",
 "ozhera"
 ],
@@ -50448,6 +50237,7 @@
 "puneetb": {
 "groups": [
 "grails",
+"grails-pmc",
 "incubator"
 ],
 "member": false,
@@ -50687,14 +50477,6 @@
 "member": false,
 "name": "Qian Sun"
 },
-"qianzhang": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Qian Zhang"
-},
 "qiaojialin": {
 "groups": [
 "incubator",
@@ -50835,7 +50617,8 @@
 },
 "quanticpony": {
 "groups": [
-"plc4x"
+"plc4x",
+"plc4x-pmc"
 ],
 "member": false,
 "name": "Unai Lería Fortea"
@@ -51035,9 +50818,7 @@
 "rafael": {
 "groups": [
 "cloudstack",
-"cloudstack-pmc",
-"kibble",
-"kibble-pmc"
+"cloudstack-pmc"
 ],
 "member": false,
 "name": "Rafael Weingärtner"
@@ -51360,6 +51141,13 @@
 ],
 "member": false,
 "name": "Ralph Su"
+},
+"ramachil": {
+"groups": [
+"lucene"
+],
+"member": false,
+"name": "Ramakrishna Chilaka"
 },
 "ramackri": {
 "groups": [
@@ -51792,8 +51580,6 @@
 "httpd",
 "httpd-pmc",
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail",
 "steve",
 "steve-pmc",
@@ -51818,6 +51604,14 @@
 ],
 "member": false,
 "name": "Roy Bulter"
+},
+"rchertara": {
+"groups": [
+"incubator",
+"xtable"
+],
+"member": false,
+"name": "Rahil Chertara"
 },
 "rchiang": {
 "groups": [
@@ -52317,7 +52111,8 @@
 },
 "rfellows": {
 "groups": [
-"nifi"
+"nifi",
+"nifi-pmc"
 ],
 "member": false,
 "name": "Rob Fellows"
@@ -52446,8 +52241,7 @@
 "logging",
 "logging-pmc",
 "maven",
-"maven-pmc",
-"portals"
+"maven-pmc"
 ],
 "member": true,
 "name": "Ralph Goers"
@@ -52751,13 +52545,6 @@
 ],
 "member": false,
 "name": "Ricky Ma"
-},
-"rickysaltzer": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Ricky Saltzer"
 },
 "ridabenjelloun": {
 "groups": [
@@ -53075,6 +52862,13 @@
 "member": false,
 "name": "Richard Lewis-Shell"
 },
+"rluvaton": {
+"groups": [
+"datafusion"
+],
+"member": false,
+"name": "Raz Luvaton"
+},
 "rmani": {
 "groups": [
 "atlas",
@@ -53195,13 +52989,6 @@
 ],
 "member": false,
 "name": "Robert Middleton"
-},
-"rmoran": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Rob Moran"
 },
 "rms": {
 "groups": [
@@ -53479,14 +53266,6 @@
 ],
 "member": false,
 "name": "Roger Meier"
-},
-"rogerrut": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Roger Ruttimann"
 },
 "rogersjeffreyl": {
 "groups": [
@@ -53795,6 +53574,14 @@
 ],
 "member": false,
 "name": "Ian Roughley"
+},
+"roushank": {
+"groups": [
+"incubator",
+"xtable"
+],
+"member": false,
+"name": "Roushan Kumar"
 },
 "rovinsky": {
 "groups": [
@@ -54165,6 +53952,13 @@
 "member": false,
 "name": "Rui Li"
 },
+"ruinova": {
+"groups": [
+"dubbo"
+],
+"member": false,
+"name": "Fengrui Shi"
+},
 "rulin": {
 "groups": [
 "singa"
@@ -54313,14 +54107,6 @@
 "member": false,
 "name": "Rodney Waldhoff"
 },
-"rwatler": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "W. Randall Watler"
-},
 "rweeks": {
 "groups": [
 "accumulo",
@@ -54455,7 +54241,8 @@
 },
 "rymarm": {
 "groups": [
-"drill"
+"drill",
+"drill-pmc"
 ],
 "member": false,
 "name": "Maksym Rymar"
@@ -55235,6 +55022,13 @@
 "member": false,
 "name": "Sarangan Rajamanickam"
 },
+"saranyak": {
+"groups": [
+"cassandra"
+],
+"member": false,
+"name": "Saranya Krishnakumar"
+},
 "sarath": {
 "groups": [
 "atlas",
@@ -55406,6 +55200,7 @@
 "sbglasius": {
 "groups": [
 "grails",
+"grails-pmc",
 "groovy",
 "groovy-pmc",
 "incubator"
@@ -55420,6 +55215,13 @@
 ],
 "member": false,
 "name": "Suyog Bhokare"
+},
+"sbin": {
+"groups": [
+"superset"
+],
+"member": false,
+"name": "Kuznetsov Nikolay"
 },
 "sbinet": {
 "groups": [
@@ -55475,8 +55277,6 @@
 "sbp": {
 "groups": [
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail",
 "steve"
 ],
@@ -55866,6 +55666,7 @@
 "sdelamo": {
 "groups": [
 "grails",
+"grails-pmc",
 "groovy",
 "incubator"
 ],
@@ -56402,9 +56203,7 @@
 "groups": [
 "comdev",
 "comdev-pmc",
-"incubator",
-"portals",
-"portals-pmc"
+"incubator"
 ],
 "member": true,
 "name": "Santiago Gala"
@@ -56752,8 +56551,6 @@
 "comdev",
 "comdev-pmc",
 "incubator",
-"kibble",
-"kibble-pmc",
 "ofbiz",
 "ofbiz-pmc",
 "training"
@@ -57035,9 +56832,7 @@
 },
 "shinsuke": {
 "groups": [
-"incubator",
-"portals",
-"portals-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Shinsuke Sugaya"
@@ -57169,7 +56964,8 @@
 "shown": {
 "groups": [
 "hertzbeat",
-"incubator"
+"incubator",
+"shenyu"
 ],
 "member": false,
 "name": "yu luo"
@@ -57526,6 +57322,13 @@
 "member": false,
 "name": "Michael Sierra"
 },
+"sigee": {
+"groups": [
+"stormcrawler"
+],
+"member": false,
+"name": "Dávid Szigecsán"
+},
 "sighingnow": {
 "groups": [
 "graphar",
@@ -57546,6 +57349,7 @@
 "bookkeeper",
 "bookkeeper-pmc",
 "devlake",
+"devlake-pmc",
 "doris",
 "incubator",
 "incubator-pmc",
@@ -57941,13 +57745,6 @@
 ],
 "member": false,
 "name": "Seth Wiesman"
-},
-"sk": {
-"groups": [
-"kibble"
-],
-"member": true,
-"name": "Sally Khudairi"
 },
 "sk0x50": {
 "groups": [
@@ -58414,14 +58211,6 @@
 ],
 "member": false,
 "name": "Stefan Miklosovic"
-},
-"smilek": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Steven M. Milek"
 },
 "smiletan": {
 "groups": [
@@ -58994,7 +58783,8 @@
 },
 "spricoder": {
 "groups": [
-"iotdb"
+"iotdb",
+"iotdb-pmc"
 ],
 "member": false,
 "name": "Hongyin Zhang"
@@ -59349,14 +59139,6 @@
 ],
 "member": false,
 "name": "Sunghwan Sohn"
-},
-"ssorallen": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Ross Allen"
 },
 "sspirits": {
 "groups": [
@@ -59793,13 +59575,6 @@
 ],
 "member": false,
 "name": "Steven Wu"
-},
-"sthepper": {
-"groups": [
-"portals-pmc"
-],
-"member": false,
-"name": "Stefan Hepper"
 },
 "stigahuang": {
 "groups": [
@@ -61450,9 +61225,7 @@
 },
 "taylor": {
 "groups": [
-"incubator",
-"portals",
-"portals-pmc"
+"incubator"
 ],
 "member": false,
 "name": "David Sean Taylor"
@@ -61796,6 +61569,13 @@
 "member": false,
 "name": "Daniel Templeton"
 },
+"tennyzhuang": {
+"groups": [
+"opendal"
+],
+"member": false,
+"name": "Tenny Zhuang"
+},
 "terencemo": {
 "groups": [
 "fineract",
@@ -61841,6 +61621,14 @@
 ],
 "member": false,
 "name": "Test Sam Ruby"
+},
+"tew": {
+"groups": [
+"incubator",
+"seata"
+],
+"member": false,
+"name": "FinnTew"
 },
 "tex": {
 "groups": [
@@ -62429,14 +62217,6 @@
 "member": false,
 "name": "Sneha Tilak"
 },
-"tillt": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Till Toenshoff"
-},
 "tillw": {
 "groups": [
 "asterixdb",
@@ -62665,6 +62445,7 @@
 "comdev-pmc",
 "curator",
 "curator-pmc",
+"fesod",
 "flink",
 "fluss",
 "fory",
@@ -62682,6 +62463,7 @@
 "opendal-pmc",
 "pulsar",
 "pulsar-pmc",
+"steve",
 "streampark",
 "streampark-pmc",
 "teaclave",
@@ -62871,9 +62653,7 @@
 "groups": [
 "impala",
 "impala-pmc",
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Thomas Marshall"
@@ -62978,8 +62758,6 @@
 "drill-pmc",
 "incubator",
 "incubator-pmc",
-"mesos",
-"mesos-pmc",
 "servicecomb",
 "servicecomb-pmc",
 "tvm",
@@ -63078,13 +62856,6 @@
 ],
 "member": false,
 "name": "Francis Christopher Liu"
-},
-"toivoadams": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Toivo Adams"
 },
 "toke": {
 "groups": [
@@ -63296,8 +63067,6 @@
 "impala",
 "incubator",
 "incubator-pmc",
-"mesos",
-"mesos-pmc",
 "parquet",
 "parquet-pmc",
 "tez",
@@ -63695,14 +63464,6 @@
 "member": false,
 "name": "Prasanna"
 },
-"tstclair": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Timothy St. Clair"
-},
 "tswstarplanet": {
 "groups": [
 "dubbo",
@@ -63776,9 +63537,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
-"comdev",
-"kibble",
-"kibble-pmc"
+"comdev"
 ],
 "member": false,
 "name": "Tomasz Urbaszek"
@@ -64071,8 +63830,6 @@
 "ucb": {
 "groups": [
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail"
 ],
 "member": false,
@@ -64168,13 +63925,6 @@
 ],
 "member": false,
 "name": "Lance S"
-},
-"ukuester": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Ulrich Kuester"
 },
 "ulbricht": {
 "groups": [
@@ -64376,6 +64126,13 @@
 ],
 "member": false,
 "name": "Li Li"
+},
+"urlyy": {
+"groups": [
+"fory"
+],
+"member": false,
+"name": "Yuyang Liu"
 },
 "usbrandon": {
 "groups": [
@@ -64844,8 +64601,7 @@
 },
 "vgoenka": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Vishal Goenka"
@@ -65156,7 +64912,8 @@
 },
 "vincbeck": {
 "groups": [
-"airflow"
+"airflow",
+"airflow-pmc"
 ],
 "member": false,
 "name": "Vincent Beck"
@@ -65185,14 +64942,6 @@
 ],
 "member": false,
 "name": "Vinci"
-},
-"vines": {
-"groups": [
-"accumulo",
-"incubator"
-],
-"member": false,
-"name": "John Vines"
 },
 "vinish": {
 "groups": [
@@ -65225,9 +64974,7 @@
 },
 "vinodkone": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Vinod Kone"
@@ -65365,7 +65112,8 @@
 },
 "vishesh": {
 "groups": [
-"cloudstack"
+"cloudstack",
+"cloudstack-pmc"
 ],
 "member": false,
 "name": "Vishesh Jindal"
@@ -65528,13 +65276,6 @@
 ],
 "member": false,
 "name": "Valentin Kulichenko"
-},
-"vkumar": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Vivek Kumar"
 },
 "vladi": {
 "groups": [
@@ -66454,6 +66195,7 @@
 "wangzhen": {
 "groups": [
 "auron",
+"datafusion",
 "gluten",
 "incubator",
 "kyuubi",
@@ -66523,6 +66265,7 @@
 "warren": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -66554,6 +66297,7 @@
 "diversity",
 "echarts",
 "echarts-pmc",
+"fesod",
 "incubator",
 "incubator-pmc",
 "olingo",
@@ -66637,14 +66381,6 @@
 ],
 "member": false,
 "name": "William Berkeley"
-},
-"weaver": {
-"groups": [
-"portals",
-"portals-pmc"
-],
-"member": false,
-"name": "Scott Weaver"
 },
 "weber": {
 "groups": [
@@ -66749,7 +66485,8 @@
 },
 "weilee": {
 "groups": [
-"airflow"
+"airflow",
+"airflow-pmc"
 ],
 "member": false,
 "name": "Wei Lee"
@@ -66806,6 +66543,13 @@
 ],
 "member": false,
 "name": "Mark Weitzel"
+},
+"weiwei": {
+"groups": [
+"shenyu"
+],
+"member": false,
+"name": "Wei Wei"
 },
 "weixiang": {
 "groups": [
@@ -66896,6 +66640,13 @@
 ],
 "member": false,
 "name": "Ryan Lo"
+},
+"wenchiwu": {
+"groups": [
+"doris"
+],
+"member": false,
+"name": "Wenchi Wu"
 },
 "wendallc": {
 "groups": [
@@ -67141,6 +66892,14 @@
 "member": false,
 "name": "Weihua Jiang"
 },
+"whodges": {
+"groups": [
+"geode",
+"geode-pmc"
+],
+"member": false,
+"name": "William Hodges"
+},
 "whoschek": {
 "groups": [
 "flume",
@@ -67355,8 +67114,7 @@
 },
 "wkeil": {
 "groups": [
-"incubator",
-"portals"
+"incubator"
 ],
 "member": false,
 "name": "Werner Keil"
@@ -67431,8 +67189,6 @@
 "woggle": {
 "groups": [
 "incubator",
-"mesos",
-"mesos-pmc",
 "spark",
 "spark-pmc"
 ],
@@ -68623,6 +68379,13 @@
 "member": false,
 "name": "Kaifeng Xue"
 },
+"xuetaoli": {
+"groups": [
+"dubbo"
+],
+"member": false,
+"name": "Xuetao Li"
+},
 "xuewanqi": {
 "groups": [
 "incubator",
@@ -68922,9 +68685,7 @@
 },
 "yan": {
 "groups": [
-"incubator",
-"mesos",
-"mesos-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Jiang Yan Xu"
@@ -69030,6 +68791,13 @@
 ],
 "member": false,
 "name": "Shixi Yang"
+},
+"yangsiyu": {
+"groups": [
+"doris"
+],
+"member": false,
+"name": "Siyu Yang"
 },
 "yangwenjie": {
 "groups": [
@@ -69167,6 +68935,14 @@
 ],
 "member": false,
 "name": "Rongzhen Yan"
+},
+"yanxin": {
+"groups": [
+"fesod",
+"incubator"
+],
+"member": false,
+"name": "Xin Yan"
 },
 "yanxinyi": {
 "groups": [
@@ -69320,6 +69096,13 @@
 ],
 "member": false,
 "name": "Yongzhi Chen"
+},
+"ycohen": {
+"groups": [
+"datafusion"
+],
+"member": false,
+"name": "Yoav Cohen"
 },
 "ycycse": {
 "groups": [
@@ -70008,6 +69791,14 @@
 ],
 "member": false,
 "name": "Hui Li"
+},
+"yowuwuuuw": {
+"groups": [
+"incubator",
+"seata"
+],
+"member": false,
+"name": "Guanlin Wu"
 },
 "yozie": {
 "groups": [
@@ -70738,7 +70529,8 @@
 },
 "zanmato": {
 "groups": [
-"arrow"
+"arrow",
+"arrow-pmc"
 ],
 "member": false,
 "name": "Rossi Sun"
@@ -70811,13 +70603,6 @@
 ],
 "member": false,
 "name": "Philipp Zehnder"
-},
-"zenfenan": {
-"groups": [
-"nifi"
-],
-"member": false,
-"name": "Sivaprasanna Sethuraman"
 },
 "zenghui": {
 "groups": [
@@ -71101,6 +70886,7 @@
 "zhangliang": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "dubbo",
 "dubbo-pmc",
 "incubator",
@@ -71114,6 +70900,7 @@
 "zhangliang2022": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
@@ -71313,6 +71100,14 @@
 "member": false,
 "name": "Yuxuan Zhang"
 },
+"zhangyv": {
+"groups": [
+"incubator",
+"seata"
+],
+"member": false,
+"name": "Yu Zhang"
+},
 "zhangyzhd": {
 "groups": [
 "dubbo"
@@ -71330,6 +71125,14 @@
 ],
 "member": false,
 "name": "Zhichao Zhang"
+},
+"zhangzhe": {
+"groups": [
+"fesod",
+"incubator"
+],
+"member": false,
+"name": "Zhe Zhang"
 },
 "zhangzicheng": {
 "groups": [
@@ -71366,7 +71169,8 @@
 "groups": [
 "hugegraph",
 "incubator",
-"pulsar"
+"pulsar",
+"pulsar-pmc"
 ],
 "member": false,
 "name": "Cong Zhao"
@@ -71530,17 +71334,11 @@
 },
 "zhenchen": {
 "groups": [
-"calcite"
+"calcite",
+"doris"
 ],
 "member": false,
 "name": "Zhen Chen"
-},
-"zheng": {
-"groups": [
-"portals"
-],
-"member": false,
-"name": "Zheng Zhong"
 },
 "zhengchenyu": {
 "groups": [
@@ -71575,6 +71373,7 @@
 "zhengqiwei": {
 "groups": [
 "hertzbeat",
+"hertzbeat-pmc",
 "incubator"
 ],
 "member": false,
@@ -71697,14 +71496,6 @@
 ],
 "member": false,
 "name": "Zhiqiang Tao"
-},
-"zhitao": {
-"groups": [
-"mesos",
-"mesos-pmc"
-],
-"member": false,
-"name": "Zhitao Li"
 },
 "zhiwei": {
 "groups": [
@@ -71908,6 +71699,14 @@
 "member": false,
 "name": "Zhi Zhang"
 },
+"zhuangjiaju": {
+"groups": [
+"fesod",
+"incubator"
+],
+"member": false,
+"name": "Jiaju Zhuang"
+},
 "zhuchen": {
 "groups": [
 "servicecomb"
@@ -72068,6 +71867,13 @@
 "member": false,
 "name": "Zirui Peng"
 },
+"zisen": {
+"groups": [
+"echarts"
+],
+"member": false,
+"name": "Zisen Jin"
+},
 "zitadombi": {
 "groups": [
 "ozone"
@@ -72207,6 +72013,14 @@
 "member": false,
 "name": "Chunhui Shen"
 },
+"zjuwangg": {
+"groups": [
+"gluten",
+"incubator"
+],
+"member": false,
+"name": "Terry Wang"
+},
 "zkaoudi": {
 "groups": [
 "incubator",
@@ -72218,6 +72032,7 @@
 "zky": {
 "groups": [
 "devlake",
+"devlake-pmc",
 "incubator"
 ],
 "member": false,
